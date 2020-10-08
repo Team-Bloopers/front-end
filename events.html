@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <header>
+      <div class="events">
+      <nav>
+        <div class="logo"><h1 class='animate__animated animate__heartBeat'>MNNIT Allahabad</h1></div>
+        <div class="menu">
+            <a href="homepage.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="#">Team</a>
+            <a href="contactus.html">Contact</a>
+            <a href="login.html">Login</a>
+        </div>
+        </nav>
+        <main>
+          <section>
+            <div class="eventboxone">
+              <h4>Rockshow</h4>
+              <p>The mystic and powerful sound of the Great Highland Bagpipes elevate above the powerful rock band,. influences of Irish Folk, Symphonic Metal, and Classical music merge with the energetic Celtic music, full of lust of life. This sound and the spectacular show guarantee a concert no one will ever forget. Mystic torches on the bagpipes and burning drumsticks, thundering against huge drums, create a cultic atmosphere, flames, shooting out of the instruments, entertain every audience worldwide</p>
+            </div>
+            <div class="eventboxtwo">
+              <h4>Dance Battle</h4>
+              <p>The mystic and powerful sound of the Great Highland Bagpipes elevate above the powerful rock band,. influences of Irish Folk, Symphonic Metal, and Classical music merge with the energetic Celtic music, full of lust of life. This sound and the spectacular show guarantee a concert no one will ever forget. Mystic torches on the bagpipes and burning drumsticks, thundering against huge drums, create a cultic atmosphere, flames, shooting out of the instruments, entertain every audience worldwide</p>
+            </div>
+            <div class="eventboxthree">
+              <h4>Gaming Hub</h4>
+              <p>Join us as we take you on a fun journey into the unknown world of games. Play joyous games along with your friends and discover the beautiful campus of MNNIT Allahabad! Witness enthralling events that could lead you to some magestic prizes and allow you to take a souvenir home with you!</p>
+            </div>
+          </section>
+        </main>
+        <main>
+          <section>
+            <div class="eventboxone">
+              <h4>Rockshow</h4>
+              <p>The mystic and powerful sound of the Great Highland Bagpipes elevate above the powerful rock band,. influences of Irish Folk, Symphonic Metal, and Classical music merge with the energetic Celtic music, full of lust of life. This sound and the spectacular show guarantee a concert no one will ever forget. Mystic torches on the bagpipes and burning drumsticks, thundering against huge drums, create a cultic atmosphere, flames, shooting out of the instruments, entertain every audience worldwide</p>
+            </div>
+            <div class="eventboxtwo">
+              <h4>Dance Battle</h4>
+              <p>The mystic and powerful sound of the Great Highland Bagpipes elevate above the powerful rock band,. influences of Irish Folk, Symphonic Metal, and Classical music merge with the energetic Celtic music, full of lust of life. This sound and the spectacular show guarantee a concert no one will ever forget. Mystic torches on the bagpipes and burning drumsticks, thundering against huge drums, create a cultic atmosphere, flames, shooting out of the instruments, entertain every audience worldwide</p>
+            </div>
+            <div class="eventboxthree">
+              <h4>Gaming Hub</h4>
+              <p>Join us as we take you on a fun journey into the unknown world of games. Play joyous games along with your friends and discover the beautiful campus of MNNIT Allahabad! Witness enthralling events that could lead you to some magestic prizes and allow you to take a souvenir home with you!</p>
+            </div>
+          </section>
+        </main>
+      </div>
+    </header>
+  </body>
+  <script type="text/javascript">
+      let progress = document.getElementById('progressbar');
+      let totalHeight = document.body.scrollHeight - window.innerHeight;
+      window.onscroll = function(){
+        let progressHeight = (window.pageYOffset / totalHeight) *100;
+        progress.style.height = progressHeight + "%";
+      }
+  </script>
+</html>

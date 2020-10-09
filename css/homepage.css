@@ -114,3 +114,10 @@ section .part2{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+canvas{
+  margin: 0;
+  padding: 0;
+  display: block;
+  touch-action: none;
+}

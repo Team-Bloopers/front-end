@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
     <title></title>
   </head>
-  <body onload="myFunction()">
+  <body>
     <div id="progressbar"></div>
     <div id="scrollPath"></div>
     <header>
@@ -83,19 +83,11 @@
     </header>
   </body>
   <script type="text/javascript">
-      let progress = document.getElementById('progressbar');
-      let totalHeight = document.body.scrollHeight - window.innerHeight;
-      window.onscroll = function(){
-        let progressHeight = (window.pageYOffset / totalHeight) *100;
-        progress.style.height = progressHeight + "%";
-      }
+        let progress = document.getElementById('progressbar');
+        let totalHeight = document.body.scrollHeight - window.innerHeight;
+        window.onscroll = function(){
+          let progressHeight = (window.pageYOffset / totalHeight) *100;
+          progress.style.height = progressHeight + "%";
+        }
   </script>
-  <script>
-
-   var preloader = document.getElementById('loading');
-   function myFunction(){
-     preloader.style.display = 'none';
-   }
-
-</script>
 </html>

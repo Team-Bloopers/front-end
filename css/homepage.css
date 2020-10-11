@@ -107,7 +107,13 @@ section .btntwo:hover{
 }
 
 section .part2{
-  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 10vh;
+  padding-left: 10vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.1)), url(../assets/part2.jpg);
   height: 100vh;
   width: 100%;
   color: white;
@@ -115,9 +121,26 @@ section .part2{
   background-repeat: no-repeat;
 }
 
-canvas{
-  margin: 0;
-  padding: 0;
-  display: block;
-  touch-action: none;
+section .part3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 10vh;
+  padding-left: 10vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.1)), url(../assets/part3.jpg);
+  height: 100vh;
+  width: 100%;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px){
+  .btnone{
+    visibility: hidden;
+  }
+  .btntwo{
+    visibility: hidden;
+  }
 }

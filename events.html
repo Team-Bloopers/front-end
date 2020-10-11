@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
     <title></title>
   </head>
-  <body>
+  <body onload="myFunction()">
     <div id="progressbar"></div>
     <div id="scrollPath"></div>
     <header>
@@ -90,4 +90,12 @@
         progress.style.height = progressHeight + "%";
       }
   </script>
+  <script>
+
+   var preloader = document.getElementById('loading');
+   function myFunction(){
+     preloader.style.display = 'none';
+   }
+
+</script>
 </html>

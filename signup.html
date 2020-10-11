@@ -29,24 +29,32 @@
     <section>
       <div class="login-container">
       <form action="">
-          <h1>LOGIN</h1>
-          <div>
-              <label>Email ID</label>
-              <input type="email" name="emailid" placeholder="Enter your emailID here" value="">
-          </div>
-          <div>
-              <label>Password</label>
-              <input type="password" name="password" placeholder="Enter your password here" value="">
-          </div>
-          <input type="submit" name="login" value="LOGIN">
-          <a href="#">Forgot Password?</a>
-          <a href="#">Forgot Username?</a>
-          <!-- Give link to ContactUs page here! -->
-          <!-- Redirect to homepage -->
+        <h3>SIGN UP</h3>
+        <div>
+            <label>Full Name</label>
+            <input type="text" name="fullname" placeholder="Enter your full name here" value="">
+        </div>
+        <div>
+            <label>Email ID</label>
+            <input type="email" name="emailid" placeholder="Enter your email ID here" value="">
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password" name="password" placeholder="Enter your password here" value="">
+        </div>
+        <div>
+            <label>College Name</label>
+            <input type="text" name="collegename" placeholder="Enter your college name here" value="">
+        </div>
+        <div>
+            <label>Are you an admin?</label>
+            <input type="checkbox" name="admin?" value="">
+        </div>
+        <input type="submit" name="signup" value="Sign Up">
       </form>
   </div>
     </section>
-  </body onload="myFunction()">
+  </body>
   <script type="text/javascript">
       let progress = document.getElementById('progressbar');
       let totalHeight = document.body.scrollHeight - window.innerHeight;

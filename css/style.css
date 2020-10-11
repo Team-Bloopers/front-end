@@ -42,18 +42,22 @@ nav .menu a{
   position: fixed;
   top:0;
   right:0;
-  width: 10px;
+  width: 1%;;
   height: 100%;
   background: rgba(255,255,255,0.05);
+  padding: 0;
+  margin: 0;
 }
 
 #progressbar{
   position: fixed;
   top:0;
   right:0;
-  width: 10px;
+  width: 1%;
   background: linear-gradient(to top, #008aff,#00ffe7);
   animation: animate 5s linear infinite;
+  padding: 0;
+  margin: 0;
 }
 
 @keyframes animate{

@@ -135,12 +135,3 @@ section .part3{
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-@media screen and (max-width: 600px){
-  .btnone{
-    visibility: hidden;
-  }
-  .btntwo{
-    visibility: hidden;
-  }
-}

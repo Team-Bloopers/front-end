@@ -59,6 +59,22 @@ nav .menu a:last-child{
     color: #ffff;
 
 }
+
+.login-container button{
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background-image: linear-gradient(to right,#32a84a, #3294a8);
+  color: #ffff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+
+}
+
 .login-container input[type="submit"]:hover{
     cursor: pointer;
     box-shadow: 1px 1px 10px #696969;
@@ -68,7 +84,7 @@ nav .menu a:last-child{
   font-size: 10px;
 }
 
-a{
+.ques{
     display: block;
     text-align: right;
     text-decoration: none;
